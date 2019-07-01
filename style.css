@@ -1,0 +1,101 @@
+
+div{display:inline;}
+body{
+   font-family:Fira Sans;
+  line-height:2em;
+ background: linear-gradient(30deg,#CCFFFF,#FFCCCC) 
+}
+#name-label{
+  position:relative;
+  left:80%;
+}
+
+#email-label{
+  position:relative;
+  left:80.5%;
+}
+
+#age-label{
+  position:relative;
+  left:85.3%;
+}
+
+#gender-label{
+  position:relative;
+  left:77%;
+}
+#title{
+ 
+  color: #023807;
+  text-align:center;
+font-size: 400%;
+  margin-bottom:2%;
+  font-family:Permanent Marker;
+}
+#sel{
+  width:100px;
+}
+#description{
+  margin-top: 1%;
+  font-size:18px;
+  text-align:center;
+  font-family: Concert One;
+  color: #023307;
+}
+form {
+  margin-top:4%;
+    display: grid;
+    grid-template-columns:300px 400px ;
+   width:70%;
+  position:relative;
+  left:23%;
+
+}
+ label {
+    grid-column: 1/ 2;
+   position:relative;
+   
+}
+input,
+select {
+    grid-column: 2 / 3;
+}
+#realgenrelabel{
+  position:relative;
+  left:27%;
+  bottom:18%;
+}
+#level-label{
+  
+  position:relative;
+  left:27%;
+  bottom:18%;
+}
+.genrelabel{
+  position: relative;
+  bottom:38px;
+  left:30px;
+
+  grid-column: 2/3;
+}
+.radiolabel{
+ grid-column:2/3;
+  position: relative;
+  bottom:38px;
+  left:30px;
+ 
+}
+#love-label{
+  position:relative;
+  left:11%;
+}
+#love{
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  position:relative;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+ bottom:6px;
+}
